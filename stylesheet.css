@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.header{
+    text-align: center;
+    background-color: #2a6e41;
+    color: antiquewhite;
+}
+.topnav{
+   
+    overflow: hidden;
+   
+    background-color: #283131;
+}
+.topnav a{
+    display: block;
+    text-decoration: none;
+    padding: 12px 20px;
+    color: rgb(219, 205, 205);
+    font-weight: 500;
+    float: left;
+}
+#right{
+    float: right;
+    background-color: green;
+}
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.leftcol {
+    margin-top: 20px;
+    float: left;
+    width: 72%;
+    background-color: aliceblue;
+}
+.card{
+    padding: 20px;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+h5 {
+    display: block;
+    font-size: 0.83em;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.forimg {
+    background-color: rgb(98, 118, 119);
+    padding: 20px;
+    width: 100%;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+div{
+    display: block;
+}
+.rightcol {
+    float: left;
+    width: 25%;
+    margin-left: 20px;
+}
+.footer {
+    padding: 23px;
+    background-color: darkgray;
+    text-align: center;
+    width: 100%;
+}
